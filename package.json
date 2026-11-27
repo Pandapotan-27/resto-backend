@@ -15,7 +15,9 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test",
+    "start": "node index.js",
+    "dev": "node index.js"
   },
   "dependencies": {
     "@supabase/server": "^1.9.2",
